@@ -9,6 +9,7 @@ Source0:	http://www.daizucms.org/lua/library/oocairo/download/%{name}-%{version}
 # Source0-md5:	db932466e55228332875e24aeefbfb01
 URL:		http://www.daizucms.org/lua/library/oocairo/
 BuildRequires:	cairo-devel
+BuildRequires:	libtool
 BuildRequires:	lua51-devel
 BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
